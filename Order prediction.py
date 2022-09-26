@@ -42,7 +42,7 @@ orders = pie3.values
 fig = px.pie(data, values=orders, names=discount)
 fig.show()
 
-
+#pie plot
 pie4 = data["Holiday"].value_counts()
 holiday = pie4.index
 orders = pie4.values
