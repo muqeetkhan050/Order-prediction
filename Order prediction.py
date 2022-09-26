@@ -35,6 +35,7 @@ orders = pie2.values
 fig = px.pie(data, values=orders, names=location)
 fig.show()
 
+#pie plot
 pie3 = data["Discount"].value_counts()
 discount = pie3.index
 orders = pie3.values
