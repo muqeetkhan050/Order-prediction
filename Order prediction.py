@@ -28,7 +28,7 @@ orders = pie.values
 fig = px.pie(data, values=orders, names=store)
 fig.show()
 
-
+#pie plot
 pie2 = data["Location_Type"].value_counts()
 location = pie2.index
 orders = pie2.values
