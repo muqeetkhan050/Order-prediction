@@ -20,7 +20,7 @@ data.describe()
 
 #explore important features
 
-
+#pie plot
 import plotly.express as px
 pie = data["Store_Type"].value_counts()
 store = pie.index
